@@ -13,7 +13,7 @@ import platform
 from datetime import datetime
 import json
 
-from d import CrossPlatformConnectionManager
+from desktop2proxy import CrossPlatformConnectionManager
 
 class CancellableConnectionManager(CrossPlatformConnectionManager):
     
