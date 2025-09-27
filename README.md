@@ -52,7 +52,7 @@
 
 3. При необходимости запустите графический интерфейс (Beta версия):
    ```cmd
-   python gui_connection_manager.py
+   python run_gui.py
    ```
    Либо запуск start_gui.bat
 
@@ -176,4 +176,5 @@ sudo python3 gui_connection_manager.py
 ---
 
 **Создано для удобного администрирования сетей и обучения сетевым технологиям. 2025г. РСКИ love** 🌐
+
 
