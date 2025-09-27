@@ -16,7 +16,7 @@ def check_dependencies():
         return False
     
     try:
-        from d import CrossPlatformConnectionManager
+        from desktop2proxy import CrossPlatformConnectionManager
         print("✅ Основной модуль найден")
     except ImportError:
         print("❌ Файл desktop2proxy.py не найден в текущей директории")
@@ -49,3 +49,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
