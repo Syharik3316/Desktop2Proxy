@@ -1438,7 +1438,7 @@ def clear_screen():
 def main():
     while True:
         clear_screen()
-        print("🤖 Артеллерийское точное подключение 42x САУ")
+        print("🤖 SyharikDP")
         print("=" * 60)
         print(f"💻 Текущая ОС: {platform.system()} {platform.release()}")
         print("=" * 60)
