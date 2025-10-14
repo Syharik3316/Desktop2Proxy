@@ -45,7 +45,7 @@ class CancellableConnectionManager(CrossPlatformConnectionManager):
 class ConnectionManagerGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("🤖 Артеллерийское точное подключение 42x САУ")
+        self.root.title("🤖 SyharikDP")
         self.root.geometry("1200x800")
         self.root.minsize(1000, 700)
         
@@ -130,7 +130,7 @@ class ConnectionManagerGUI:
         main_frame.columnconfigure(1, weight=1)
         main_frame.rowconfigure(4, weight=1)
         
-        title_label = ttk.Label(main_frame, text="🤖 Артеллерийское точное подключение 42x САУ", 
+        title_label = ttk.Label(main_frame, text="🤖 SyharikDP", 
                                style='Title.TLabel')
         title_label.grid(row=0, column=0, columnspan=3, pady=(0, 20))
         
@@ -1265,10 +1265,10 @@ class ConnectionManagerGUI:
     
     def show_about(self):
         about_text = """
-🤖 Артеллерийское точное подключение 42x САУ
+🤖 SyharikDP
 
 Версия: 1.0 Beta
-Авторы: 42x САУ
+Автор: Syharik3316
 
 Возможности:
 • Определение операционной системы
