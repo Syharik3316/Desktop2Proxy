@@ -25,7 +25,7 @@ def check_dependencies():
     return True
 
 def main():
-    print("🤖 Артеллерийское точное подключение 42x САУ")
+    print("🤖 SyharikDP")
     print("=" * 60)
     print(f"💻 Платформа: {platform.system()} {platform.release()}")
     print(f"🐍 Python: {sys.version}")
@@ -49,4 +49,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
