@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-echo 🤖 Артеллерийское точное подключение 42x САУ
+echo 🤖 SyharikDP
 echo ================================================
 echo.
 
@@ -40,3 +40,4 @@ if errorlevel 1 (
     echo 💡 Попробуйте запустить консольную версию: python desktop2proxy.py
     pause
 )
+
